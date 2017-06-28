@@ -12,10 +12,13 @@ body {
 	float: left;
 	margin: 1.66%;
 	border-radius: 15px;
+	transition: background .5s;
+	-webkit-transition: background .5s;
+	-moz-transition: background .5s;
 }
 
 #container {
-	margin: 0 auto;
+	margin: 20px auto;
 	max-width: 600px;
 }
 
@@ -63,6 +66,9 @@ button {
 	letter-spacing: 1px;
 	font-size: inherit;
 	transition: all .5s;
+	-webkit-transition: background .5s;
+	-moz-transition: background .5s;
+	outline: none;
 }
 
 button:hover {
